@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<title>A title</title>
+	<meta charset="utf-8">
+	<style>
+		*	{
+			font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		}
+		body {
+			margin: 0 auto;
+			background-color: #ebebeb;
+		}
+		nav {
+			margin: 24px 0 24px 0;
+		}
+		.mainContent {
+			margin: 0 auto;
+			margin-top: 30px;
+			margin-bottom: 20px;
+			width: 960px;
+			background-color: #ebebeb
+		}
+		section {
+			width: 610px;
+			padding: 20px 20px 20px 20px;
+			background-color: #ffffff;
+		}
+		aside {
+			width: 250px;
+			padding: 20px 10px 20px 10px;
+			background-color: #ffffff;
+		}
+		.floatRight {
+			float: right;
+		}
+
+		.floatLeft {
+			float: left;
+		}
+		.container {
+			width: 960px;
+			background-color: #ffffff;
+			margin: 0 auto;
+		}
+		.borderGray {
+			color: #cccccc;
+			padding: 0;
+			margin: 0;
+		}
+		.profilePic{
+			margin-right: 20px;
+			float: left;
+			width: 200px;
+			height: 150px;
+		}
+		.aboutMe {
+			color: #4ca9a4;
+			margin: 0 auto;
+			padding: 15px 0 20px 0;
+		}
+		.connectMe {
+			color: #4ca9a4;
+			margin: 0 auto;
+			margin: 15px 0 15px 0;
+		}
+		.connectIcons {
+			width: 60px;
+			height: 60px;
+			float: left;
+			margin: 8px;
+		}
+		.connectBar {
+			margin: 0 auto;
+			margin-top: 10px;
+		}
+		.topBar {
+			width: 100%;
+			background-color: #ffffff;
+			overflow: hidden;
+		}
+		.footerNote {
+			font-size: 9pt;
+			text-align: center;
+			color: #ffffff;
+		}
+		header > h1 {
+			background-color: #4ca9a4; 
+			padding: 20px;
+			color: #ffffff;
+			margin: 0 auto;
+		}
+		footer {
+			clear: both;
+			position: relative;
+			top: 30px;
+			border-top-style: solid;
+			border-width: 5px;
+			border-color: #4ca9a4;
+			background-color: #666666;
+			padding: 25px 0 25px 0;
+		}
+	</style>
+</head>	
+<body>
+	<div class="topBar">
+		<div class="container">		
+		<header class="floatLeft"><h1>Domingo Loria</h1></header>
+		<nav class="floatRight">
+			About | Portfolio | Contact
+		</nav>
+		</div>
+	</div>
+	<hr style="clear: both;" class="borderGray">
+	
+	<div class="mainContent">
+	<section class="floatLeft">
+		<h1 class="aboutMe">About Me</h1>
+		<hr class="borderGray" style="margin: 0 0 20px 0;">
+		<img src="http://i0.kym-cdn.com/entries/icons/facebook/000/006/026/futuramafry.jpg" alt="My Picture" class="profilePic">
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+	</section>
+
+	<aside class="floatRight">
+		<h2 class="connectMe">Connect with Me</h2>
+		<hr class="borderGray">
+		<div class="connectBar">
+		<img src="assets/images/github.png" class="connectIcons">
+		<img src="assets/images/linkedin.jpg" class="connectIcons">
+		<img src="assets/images/stackoverflow.jpg" class="connectIcons">
+		</div>
+	</aside>
+	</div>
+
+	<footer>
+	<p class="footerNote">©Copyright 2017 Domingo Loria</p>
+	</footer>
+
+</body>
+</html>
