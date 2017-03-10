@@ -6,6 +6,7 @@
 	<style>
 		*	{
 			font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+			color: #777777;
 		}
 		body {
 			margin: 0 auto;
@@ -13,6 +14,7 @@
 		}
 		nav {
 			margin: 24px 0 24px 0;
+			white-space: nowrap;
 		}
 		.mainContent {
 			margin: 0 auto;
@@ -30,6 +32,9 @@
 			width: 250px;
 			padding: 20px 10px 20px 10px;
 			background-color: #ffffff;
+		}
+		a {
+			text-decoration: none;
 		}
 		.floatRight {
 			float: right;
@@ -61,13 +66,12 @@
 		}
 		.connectMe {
 			color: #4ca9a4;
-			margin: 0 auto;
 			margin: 15px 0 15px 0;
+			text-align: center;
 		}
 		.connectIcons {
 			width: 60px;
 			height: 60px;
-			float: left;
 			margin: 8px;
 		}
 		.connectBar {
@@ -107,7 +111,9 @@
 		<div class="container">		
 		<header class="floatLeft"><h1>Domingo Loria</h1></header>
 		<nav class="floatRight">
-			About | Portfolio | Contact
+			<a href="index.html">About</a> &nbsp | &nbsp
+			<a href="portfolio.html">Portfolio</a> &nbsp | &nbsp
+			<a href="contact.html">Contact</a>
 		</nav>
 		</div>
 	</div>
@@ -118,16 +124,22 @@
 		<h1 class="aboutMe">About Me</h1>
 		<hr class="borderGray" style="margin: 0 0 20px 0;">
 		<img src="http://i0.kym-cdn.com/entries/icons/facebook/000/006/026/futuramafry.jpg" alt="My Picture" class="profilePic">
-		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+		<p style="line-height: 1.8;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 	</section>
 
 	<aside class="floatRight">
 		<h2 class="connectMe">Connect with Me</h2>
 		<hr class="borderGray">
 		<div class="connectBar">
-		<img src="assets/images/github.png" class="connectIcons">
-		<img src="assets/images/linkedin.jpg" class="connectIcons">
-		<img src="assets/images/stackoverflow.jpg" class="connectIcons">
+			<a href="https://www.github.com" target="_blank">
+				<img src="assets/images/github.png" class="connectIcons">
+			</a>
+			<a href="https://www.linkedin.com/in/domingoloria" target="_blank">
+				<img src="assets/images/linkedin.jpg" class="connectIcons">
+			</a>
+			<a href="https://www.stackoverflow.com" target="_blank">
+				<img src="assets/images/stackoverflow.jpg" class="connectIcons">
+			</a>
 		</div>
 	</aside>
 	</div>
