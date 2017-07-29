@@ -3,7 +3,7 @@
 Basic Portfolio is a personal portfolio created using HTML and CSS stylesheet.
 
 ## URL 
-https://djrloria.github.io/Bootstrap-Portfolio/
+https://djrloria.github.io/Basic-Portfolio/
 
 ## Technologies Used
 - HTML
